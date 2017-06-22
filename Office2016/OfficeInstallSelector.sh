@@ -23,7 +23,7 @@ Skype for Business,https://go.microsoft.com/fwlink/?linkid=832978
 EOF
 }
 
-## Make CofC Icon .b64 file
+## Make Office Icon .b64 file
 picture(){
 /bin/cat <<EOF >/private/tmp/microsofticon.b64
 iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAsBJREFUeAHtmDFBg1EYxPgxgAiGGqgRWPCCoy6w1QAqGBCBAYqDdL/krfeWy2X6jt+359uD6D1dfg
@@ -47,10 +47,10 @@ picture
 #############################################################
 ########### USER DEFINED VARIABLES BELOW ####################
 #############################################################
-### Path to cocoaDialog (custom location for CofC)
+### Path to cocoaDialog 
 cdPath="/Library/Application Support/JAMF/bin/cocoaDialog.app/Contents/MacOS/cocoaDialog"
 
-### Path for the icon used in the cocoaDialog box (College of Charleston Logo)
+### Path for the icon used in the cocoaDialog box
 iconPath="/private/tmp/microsofticon.png"
 
 ### Path for the JAMF binary
